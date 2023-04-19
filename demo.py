@@ -20,7 +20,7 @@ def custom_header(logo_base64):
     header = f'''
     <style>
         .header {{
-            height:110px;
+            height:130px;
             background-color:white;
             display:flex;
             align-items:center;
@@ -35,6 +35,9 @@ def custom_header(logo_base64):
     <div class="header">
         <div style="display:flex;align-items:center;">
             <img src="data:image/png;base64,{logo_base64}" style="height:80px; max-height: 100%; object-fit: contain; margin-right:15px;"/>
+        </div>
+        <div>
+            <img src="flipick_coursebot.png" />
         </div>
         <div style="display:flex;align-items:center;margin-left:auto; top: 50%;">
             <a href="/" style="text-decoration:none; padding-top:40px;">
