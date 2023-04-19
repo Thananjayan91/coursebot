@@ -12,6 +12,14 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title=None, page_icon=None,
                    layout="wide", initial_sidebar_state="collapsed")
+
+hide_menu_style = """
+        <style>
+        #MainMenu {display:none;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 openai.api_key = os.getenv("API_KEY")
 
 choose = option_menu("App Gallery", ["About", "Photo Editing", "Project Planning", "Python e-Course", "Contact"],
@@ -24,13 +32,6 @@ choose = option_menu("App Gallery", ["About", "Photo Editing", "Project Planning
     "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "--hover-color": "#eee"},
     "nav-link-selected": {"background-color": "#02ab21"},
 })
-
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 st.title("CourseBot")
