@@ -34,7 +34,7 @@ def custom_header(logo_base64):
     </style>
     <div class="header">
         <div style="display:flex;align-items:center;">
-            <img src="data:image/png;base64,{logo_base64}" style="margin-top:20px; margin-left:30px; max-height: 100%; object-fit: contain; margin-right:15px;"/>
+            <img src="data:image/png;base64,{logo_base64}" style="margin-top:40px; margin-left:50px; max-height: 100%; object-fit: contain; margin-right:15px;"/>
         </div>  
         <div style="display:flex;align-items:center;margin-left:auto; top: 50%;">
             <a href="/" style="text-decoration:none; padding-top:40px;">
