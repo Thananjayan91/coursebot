@@ -8,19 +8,23 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from pathlib import Path
 from llama_index import download_loader
-from st_pages import Page, Section, show_pages, add_page_title
-
-show_pages(
-    [
-        Page("app.py"),
-        Page("demo.py"),
-        Page("pages/demo1.py")
-    ]
-)
+from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title=None, page_icon=None,
                    layout="wide", initial_sidebar_state="collapsed")
 openai.api_key = os.getenv("API_KEY")
+
+choose = option_menu("App Gallery", ["About", "Photo Editing", "Project Planning", "Python e-Course", "Contact"],
+                     icons=['house', 'camera fill', 'kanban',
+                            'book', 'person lines fill'],
+                     menu_icon="app-indicator", default_index=0,
+                     styles={
+    "container": {"padding": "5!important", "background-color": "#fafafa"},
+    "icon": {"color": "orange", "font-size": "25px"},
+    "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px", "--hover-color": "#eee"},
+    "nav-link-selected": {"background-color": "#02ab21"},
+})
+
 st.title("CourseBot")
 st.caption("AI-powered course creation made easy")
 DATA_DIR = "data"
