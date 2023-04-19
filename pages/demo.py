@@ -19,9 +19,10 @@ from st_pages import Page, Section, show_pages, add_page_title
 hide_menu_style = """
         <style>
         #MainMenu {display:none;}
-        [data-testid="stHeader"] {{
+        [data-testid="stHeader"]>header {{
         display:none !important;
         }}
+        .css-hqnn1b{display:none !important;}
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
