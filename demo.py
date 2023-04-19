@@ -35,7 +35,7 @@ def custom_header(logo_base64):
     <div class="header">
         <div style="display:flex;align-items:center;">
             <div style="display:flex;align-items:center;margin-right:auto;">
-                <img src="data:image/png;base64,{logo_base64}" style="max-height:100%; max-width:120px; margin-right:15px;"/>
+            <img src="data:image/png;base64,{logo_base64}" style="max-height:100%; max-width:120px; margin-right:15px;"/>
             </div>
             <a href="/" style="text-decoration:none;">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="100" viewBox="0 0 24 24" fill="none" stroke="#2953B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
