@@ -33,9 +33,11 @@ def custom_header(logo_base64):
         }}
     </style>
     <div class="header">
-        <div style="display:flex;align-items:center;margin-right:auto;">
-            <img src="data:image/png;base64,{logo_base64}" style="max-height:100%; max-width:120px; margin-right:15px;"/>
+        <div style="display:flex;align-items:center;">
+            <img src="data:image/png;base64,{logo_base64}" max-height: 100%; object-fit: contain; margin-right:15px;"/>
         </div>
+
+       
   
         <div style="display:flex;align-items:center;margin-left:auto; top: 50%;">
             <a href="/" style="text-decoration:none; padding-top:40px;">
