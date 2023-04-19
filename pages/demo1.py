@@ -87,7 +87,7 @@ with st.sidebar:
     choose = option_menu("App Gallery", ["Write For Me", "Idea Generator", "Promotion Ideas", "Account", "Log Out"],
                          icons=['cpu', 'lightbulb fill',
                                 'bar-chart fill', 'book', 'person dash'],
-                         menu_icon="app-indicator", default_index=0,
+                         menu_icon="app-indicator", default_index=0, orientation="horizontal",
                          styles={
         "container": {"padding": "5!important", "background": "radial-gradient(at bottom left, rgba(255, 0, 255, 0.1), transparent 500px)", "border-radius": "16px", "box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)", "backdrop-filter": "blur(5px)", "-webkit-backdrop-filter": "blur(5px)", "border": "1px solid rgba(255, 255, 255, 0.3)"},
         "icon": {"font-color": "Grey", "font-size": "14px", "border-radius": "50%"},
