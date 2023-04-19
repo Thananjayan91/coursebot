@@ -78,7 +78,7 @@ st.markdown(custom_header(logo_base64), unsafe_allow_html=True)
 # Add an empty container to create space for the fixed header
 st.empty()
 
-st.title("CourseBot")
+st.subheader("CourseBOT for Books")
 st.caption("AI-powered course creation made easy")
 DATA_DIR = "data"
 
