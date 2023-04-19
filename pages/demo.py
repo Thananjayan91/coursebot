@@ -21,7 +21,8 @@ def get_image_base64(image_file):
         return base64.b64encode(img_file.read()).decode("utf-8")
 
 
-logo_image = "flipick_coursebot.png"  # Replace with the path to your logo image
+# Replace with the path to your logo image
+logo_image = "pages/flipick_coursebot.png"
 logo_base64 = get_image_base64(logo_image)
 
 # Define your header with the logo and home button
