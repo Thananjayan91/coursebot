@@ -49,7 +49,7 @@ def custom_header(logo_base64):
             left:0;
             right:0;
             z-index:1000;
-            margin-top:-50px;
+            
         }}
     </style>
     <div class="header">
