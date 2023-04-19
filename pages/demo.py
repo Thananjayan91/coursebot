@@ -20,7 +20,7 @@ hide_menu_style = """
         <style>
         #MainMenu {display:none;}
         [data-testid="stHeader"] {{
-        display:none;
+        visibility:hidden;
         }}
         </style>
         """
