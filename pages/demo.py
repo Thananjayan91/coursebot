@@ -15,10 +15,13 @@ from st_pages import Page, Section, show_pages, add_page_title
 
 # Load your logo image and convert it to base64
 
+
 hide_menu_style = """
         <style>
         #MainMenu {display:none;}
-        .stHeader {display:none;}
+        [data-testid="stHeader"] {{
+        display:none;
+        }}
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
