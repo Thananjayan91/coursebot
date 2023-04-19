@@ -31,10 +31,10 @@ def custom_header(logo_base64):
     return header
 
 
-tagline = "Your Tagline"  # Replace with your tagline
+# tagline = "Your Tagline"  # Replace with your tagline
 
 # Display the custom header in the Streamlit app
-st.markdown(custom_header(logo_base64, tagline), unsafe_allow_html=True)
+st.markdown(custom_header(logo_base64), unsafe_allow_html=True)
 
 # Your Streamlit app content goes here
 st.write("Hello, world!")
