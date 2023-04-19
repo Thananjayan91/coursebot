@@ -12,8 +12,9 @@ from st_pages import Page, Section, show_pages, add_page_title
 
 show_pages(
     [
-        # Page("app.py"),
-        Page("demo.py")
+        Page("app.py"),
+        Page("demo.py"),
+        Page("demo1.py")
     ]
 )
 
