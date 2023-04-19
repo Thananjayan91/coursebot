@@ -3,3 +3,4 @@ openai
 llama-index
 langchain
 PyPDF2
+st_pages>=0.4.0
