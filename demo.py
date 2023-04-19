@@ -37,10 +37,14 @@ def custom_header(logo_base64):
             <img src="data:image/png;base64,{logo_base64}" style="height:80px; max-height: 100%; object-fit: contain; margin-right:15px;"/>
         </div>
         <div style="display:flex;align-items:center;margin-left:auto; top: 50%;">
-            <a href="/" style="text-decoration:none; padding-top:40px; height:70px">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2953B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            <a href="/" style="text-decoration:none; padding-top:40px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="100" viewBox="0 0 24 24" fill="none" stroke="#2953B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
             </a>
         </div>
+
     </div>
     '''
     return header
