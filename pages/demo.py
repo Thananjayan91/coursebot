@@ -50,11 +50,10 @@ def custom_header(logo_base64):
             align-items:center;
             padding:0px 20px;
             position:fixed;
-            top:0;
+            top:-40px;
             left:0;
             right:0;
             z-index:1000;
-            
         }}
     </style>
     <div class="header">
