@@ -25,6 +25,14 @@ choose = option_menu("App Gallery", ["About", "Photo Editing", "Project Planning
     "nav-link-selected": {"background-color": "#02ab21"},
 })
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
 st.title("CourseBot")
 st.caption("AI-powered course creation made easy")
 DATA_DIR = "data"
