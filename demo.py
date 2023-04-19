@@ -20,7 +20,7 @@ def custom_header(logo_base64):
     header = f'''
     <style>
         .header {{
-            height:100px;
+            height:150px;
             background-color:white;
             display:flex;
             align-items:center;
@@ -34,7 +34,7 @@ def custom_header(logo_base64):
     </style>
     <div class="header">
         <div style="display:flex;align-items:center;">
-            <img src="data:image/png;base64,{logo_base64}" height="80px" style="margin-right:15px;"/>
+            <img src="data:image/png;base64,{logo_base64}" height="120px" style="margin-right:15px;"/>
         </div>
         <div style="margin-left:auto;">
             <a href="/" style="text-decoration:none;font-size:18px;font-weight:bold;color:#4a4a4a;">Home</a>
