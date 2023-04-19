@@ -14,7 +14,7 @@ show_pages(
     [
         Page("app.py"),
         Page("demo.py"),
-        Page("demo1.py")
+        Page("pages/demo1.py")
     ]
 )
 
