@@ -17,7 +17,7 @@ openai.api_key = os.getenv("API_KEY")
 choose = option_menu("App Gallery", ["About", "Photo Editing", "Project Planning", "Python e-Course", "Contact"],
                      icons=['house', 'camera fill', 'kanban',
                             'book', 'person lines fill'],
-                     menu_icon="app-indicator", default_index=0,
+                     menu_icon="app-indicator", default_index=0, orientation="horizontal",
                      styles={
     "container": {"padding": "5!important", "background-color": "#fafafa"},
     "icon": {"color": "orange", "font-size": "25px"},
