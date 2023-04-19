@@ -60,11 +60,11 @@ def custom_header(logo_base64):
     return header
 
 
-# # Display the custom header in the Streamlit app
-# st.markdown(custom_header(logo_base64), unsafe_allow_html=True)
+# Display the custom header in the Streamlit app
+st.markdown(custom_header(logo_base64), unsafe_allow_html=True)
 
-# # Add an empty container to create space for the fixed header
-# st.empty()
+# Add an empty container to create space for the fixed header
+st.empty()
 
 # # Your Streamlit app content goes here
 # # st.set_page_config(page_title=None, page_icon=None,
