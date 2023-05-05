@@ -1,6 +1,6 @@
 from langchain import OpenAI
 import streamlit as st
-from llama_index import GPTSimpleVectorIndex, Document, SimpleDirectoryReader, QuestionAnswerPrompt, LLMPredictor, ServiceContext
+from llama_index import GPTVectorStoreIndex, Document, SimpleDirectoryReader, QuestionAnswerPrompt, LLMPredictor, ServiceContext
 import os
 import openai
 import json
